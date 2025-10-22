@@ -1,0 +1,27 @@
+# Personal profile data - not shared publicly
+daniel-desktop/
+
+# System profiles contain potentially sensitive information
+# These are example/template directories for public sharing
+system-profiles/base/*
+system-profiles/remote/*
+
+# Keep the README in profiles directory
+!system-profiles/README.md
+
+# Keep directory structure
+!system-profiles/base/.gitkeep
+!system-profiles/remote/.gitkeep
+
+# Logs
+*.log
+/tmp/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Environment files
+.env
+.env.local
